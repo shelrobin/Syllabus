@@ -17,8 +17,8 @@
 var syllabus = [];
 
 var class0 = {
-  // 2016, January, 12
-  date: new Date(2016, 1, 12),
+  // 2016, January, 12 6PM
+  date: new Date(2016, 1, 12, 18),
   agenda: [
     "introductions",
     "Communication (slack)",
@@ -33,8 +33,8 @@ syllabus.push(class0)
 
 ```javascript
 var class1 = {
-  // 2016, January, 19
-  date: new Date(2016, 1, 19),
+  // 2016, January, 19 6PM
+  date: new Date(2016, 1, 19, 18),
   agenda: [
     "variables",
     "scope",
@@ -47,10 +47,9 @@ syllabus.push(class1)
 
 ```javascript
 var class2 = {
-  // 2016, January, 26
-  date: new Date(2016, 1, 26),
-  agenda: [
-  ]
+  // 2016, January, 26 6PM
+  date: new Date(2016, 1, 26, 18),
+  agenda: undefined
 };
 
 syllabus.push(class2)
@@ -58,8 +57,8 @@ syllabus.push(class2)
 
 ```javascript
 var class3 = {
-  // 2016, February, 2
-  date: new Date(2016, 2, 2),
+  // 2016, February, 2 6PM
+  date: new Date(2016, 2, 2, 18),
   agenda: [
     "constructor functions"
   ]
@@ -78,62 +77,64 @@ function ClassRoomSession (date, agenda) {
   syllabus.push(this);
 };
 
-// 2016, February, 9
-var class4 = new ClassRoomSession(new Date(2016, 2, 9), []);
+// 2016, February, 9 6PM
+var class4 = new ClassRoomSession(new Date(2016, 2, 9, 18), undefined);
 ```
 
 ```javascript
-// 2016, February, 16
-var class5 = new ClassRoomSession(new Date(2016, 2, 16), []);
+// 2016, February, 16 6PM
+var class5 = new ClassRoomSession(new Date(2016, 2, 16, 18), undefined);
 ```
 
 ```javascript
-// 2016, February, 23
-var class6 = new ClassRoomSession(new Date(2016, 2, 23), []);
+// 2016, February, 23 6PM
+var class6 = new ClassRoomSession(new Date(2016, 2, 23, 18), undefined);
 ```
 
 ```javascript
-// 2016, March, 1
-var class7 = new ClassRoomSession(new Date(2016, 3, 1), []);
+// 2016, March, 1 6PM
+var class7 = new ClassRoomSession(new Date(2016, 3, 1, 18), undefined);
 ```
 
 ```javascript
 // 2016, March, 8
-var class8 = new ClassRoomSession(new Date(2016, 3, 8), ["No Class"]);
+// No class
+var class8 = null;
+syllabus.push(class8);
 ```
 
 ```javascript
-// 2016, March, 15
-var class9 = new ClassRoomSession(new Date(2016, 3, 15), []);
+// 2016, March, 15 6PM
+var class9 = new ClassRoomSession(new Date(2016, 3, 15, 18), undefined);
 ```
 
 ```javascript
-// 2016, March, 22
-var class10 = new ClassRoomSession(new Date(2016, 3, 22), []);
+// 2016, March, 22 6PM
+var class10 = new ClassRoomSession(new Date(2016, 3, 22, 18), undefined);
 ```
 
 ```javascript
-// 2016, March, 29
-var class11 = new ClassRoomSession(new Date(2016, 3, 29), []);
+// 2016, March, 29 6PM
+var class11 = new ClassRoomSession(new Date(2016, 3, 29, 18), undefined);
 ```
 
 ```javascript
-// 2016, April, 5
-var class12 = new ClassRoomSession(new Date(2016, 4, 5), []);
+// 2016, April, 5 6PM
+var class12 = new ClassRoomSession(new Date(2016, 4, 5, 18), undefined);
 ```
 
 ```javascript
-// 2016, April, 12
-var class13 = new ClassRoomSession(new Date(2016, 4, 12), []);
+// 2016, April, 12 6PM
+var class13 = new ClassRoomSession(new Date(2016, 4, 12, 18), undefined);
 ```
 
 ```javascript
-// 2016, April, 19
-var class14 = new ClassRoomSession(new Date(2016, 4, 19), []);
+// 2016, April, 19 6PM
+var class14 = new ClassRoomSession(new Date(2016, 4, 19, 18), undefined);
 ```
 
 ```javascript
 // 2016, April,
-var final = new ClassRoomSession(new Date(), []);
+var final = new ClassRoomSession(undefined, undefined);
 ```
 
