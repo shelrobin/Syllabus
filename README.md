@@ -33,6 +33,7 @@ syllabus.push(class0)
 
 ```javascript
 var class1 = {
+  // 2016, January, 19
   date: new Date(2016, 1, 19),
   agenda: [
     "variables",
@@ -46,6 +47,7 @@ syllabus.push(class1)
 
 ```javascript
 var class2 = {
+  // 2016, January, 26
   date: new Date(2016, 1, 26),
   agenda: [
   ]
@@ -56,6 +58,7 @@ syllabus.push(class2)
 
 ```javascript
 var class3 = {
+  // 2016, February, 2
   date: new Date(2016, 2, 2),
   agenda: [
     "constructor functions"
@@ -66,58 +69,71 @@ syllabus.push(class3)
 ```
 
 ```javascript
-// Takes in a date and an array of topics then puts class in syllabus
-function Class (date, agenda) {
+// Takes in a date and an array of topics
+// puts ClassRoomSession in syllabus
+function ClassRoomSession (date, agenda) {
   this.date = date;
   this.agenda = agenda;
 
   syllabus.push(this);
 };
 
-var class4 = new Class(new Date(2016, 2, 9), []);
+// 2016, February, 9
+var class4 = new ClassRoomSession(new Date(2016, 2, 9), []);
 ```
 
 ```javascript
-var class5 = new Class(new Date(2016, 2, 16), []);
+// 2016, February, 16
+var class5 = new ClassRoomSession(new Date(2016, 2, 16), []);
 ```
 
 ```javascript
-var class6 = new Class(new Date(2016, 2, 23), []);
+// 2016, February, 23
+var class6 = new ClassRoomSession(new Date(2016, 2, 23), []);
 ```
 
 ```javascript
-var class7 = new Class(new Date(2016, 3, 1), []);
+// 2016, March, 1
+var class7 = new ClassRoomSession(new Date(2016, 3, 1), []);
 ```
 
 ```javascript
-var class8 = new Class(new Date(2016, 3, 8), ["No Class"]);
+// 2016, March, 8
+var class8 = new ClassRoomSession(new Date(2016, 3, 8), ["No Class"]);
 ```
 
 ```javascript
-var class9 = new Class(new Date(2016, 3, 15), []);
+// 2016, March, 15
+var class9 = new ClassRoomSession(new Date(2016, 3, 15), []);
 ```
 
 ```javascript
-var class10 = new Class(new Date(2016, 3, 22), []);
+// 2016, March, 22
+var class10 = new ClassRoomSession(new Date(2016, 3, 22), []);
 ```
 
 ```javascript
-var class11 = new Class(new Date(2016, 3, 29), []);
+// 2016, March, 29
+var class11 = new ClassRoomSession(new Date(2016, 3, 29), []);
 ```
 
 ```javascript
-var class12 = new Class(new Date(2016, 4, 5), []);
+// 2016, April, 5
+var class12 = new ClassRoomSession(new Date(2016, 4, 5), []);
 ```
 
 ```javascript
-var class13 = new Class(new Date(2016, 4, 12), []);
+// 2016, April, 12
+var class13 = new ClassRoomSession(new Date(2016, 4, 12), []);
 ```
 
 ```javascript
-var class14 = new Class(new Date(2016, 4, 19), []);
+// 2016, April, 19
+var class14 = new ClassRoomSession(new Date(2016, 4, 19), []);
 ```
 
 ```javascript
-var final = new Class(new Date(), []);
+// 2016, April,
+var final = new ClassRoomSession(new Date(), []);
 ```
 
