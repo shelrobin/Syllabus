@@ -1,4 +1,4 @@
- # Programming basics syllabus
+# Programming basics syllabus
 
 - [Catalog description](#catalog-description)
 - [About this course](#about-this-course)
@@ -8,8 +8,8 @@
 - [Assignments](#assignments)
 - [References](#references)
 - [Schedule](#schedule)
-- [Collaboration, original work and use of 3rd party source code](#collaboration,-original-work-and-use-of-3rd-party-source-code)
-- [Mobile phones, texting, instant messaging, email, social media, web browsing](mobile-phones,-texting,-instant-messaging,-email,-social-media,-web-browsing)
+- [Collaboration, original work and use of 3rd party source code](#collaboration-original-work-and-use-of-3rd-party-source-code)
+- [Mobile phones, texting, instant messaging, email, social media, web browsing](#mobile-phones-texting-instant-messaging-email-social-media-web-browsing)
 - [Attendance](#attendance)
 - [Laptop and software requirements](#laptop-and-software-requirements)
 - [Disabilities statement](#disabilities-statement)
@@ -76,7 +76,7 @@ var class0 = {
     "p5.js",
     "p5.js editor",
     "drawing",
-    "github [wip]"
+    "Github"
   ]
 };
 syllabus.push(class0)
@@ -191,7 +191,7 @@ var final = new ClassRoomSession(undefined, undefined);
 
 
 # Collaboration, original work and use of 3rd party source code
-For your code exploration assignments and project work you are expected to write original code. You must be able to explain how your program functions whenever asked. It is acceptable and encouraged to seek design, coding, and debugging assistance from other students, staff, or faculty in order to complete your work. Likewise, you are encouraged to help other students whenever possible. You are encouraged to study and learn from code examples. You may use third-party libraries to simplify coding, however, grading is based on the functionality of your original code along with the clarity of your comments and documentation. Whenever you incorporate third-party open source materials in your work you must properly attribute the works. Any student submitting work that can be reasonably believed to not be their own will be reported to the Office of Student Conduct and Complaint Resolution according to the Northeastern University Academic Integrity Policy.
+For your code exploration assignments and project work you are expected to write original code. You must be able to explain how your program functions whenever asked. It is acceptable and encouraged to seek design, coding, and debugging assistance from other students, staff, or faculty in order to complete your work. Likewise, you are encouraged to help other students whenever possible. You are encouraged to study and learn from code examples. You may use third-party libraries to simplify coding, however, grading is based on the functionality of your original code (in compliance with their licence) along with the clarity of your comments and documentation. Whenever you incorporate third-party open source materials in your work you must properly attribute the works. Any student submitting work that can be reasonably believed to not be their own will be reported to the Office of Student Conduct and Complaint Resolution according to the Northeastern University Academic Integrity Policy.
 
 # Mobile phones, texting, instant messaging, email, social media, web browsing
 We're all adults here. The class is for your benefit. Use good judgement. We will have breaks during class where you'll have time to attend whatever you need.
