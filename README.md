@@ -3,7 +3,7 @@ This syllabus is subject to change as improvements are needed.
 
 - [Catalog description](#catalog-description)
 - [About this course](#about-this-course)
-- [communication](#communication)
+- [Communication](#communication)
 - [Format](#format)
 - [Grading](#grading)
 - [Assignments](#assignments)
@@ -97,12 +97,22 @@ var class0 = {
   date: new Date(2016, 0, 12, 18),
   link: "https://github.com/ArtG2260SpringTuesday2016/Class0"
   agenda: [
-    "introductions",
+    "Introductions",
     "Communication (slack, github)",
     "p5.js",
     "p5.js editor",
-    "drawing",
+    "Drawing",
     "Github"
+  ],
+  relatedMaterials: [
+    "https://github.com/ArtG2260SpringTuesday2016/Class0"
+    "http://eloquentjavascript.net/01_values.html",
+    "http://eloquentjavascript.net/02_program_structure.html",
+    "https://www.youtube.com/watch?v=8j0UDiN7my4&index=1&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=D1ELEeIs0j8&index=2&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=9mucjcrhFcM&index=3&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "http://p5js.org/download/",
+    "http://education.github.com/"
   ]
 };
 syllabus.push(class0)
@@ -114,9 +124,27 @@ var class1 = {
   date: new Date(2016, 0, 19, 18),
   link: "https://github.com/ArtG2260SpringTuesday2016/Class1"
   agenda: [
-    "variables",
-    "scope",
-    "functions"
+    "Variables",
+    "Scope",
+    "Conditional statement",
+    "Functions",
+    "Data types",
+  ]
+  // Yeah I should split this up, functions can wait a week…then either
+  // do something or return something.
+  relatedMaterials: [
+    "http://eloquentjavascript.net/03_functions.html",
+    "http://eloquentjavascript.net/04_data.html",
+    "http://eloquentjavascript.net/06_object.html",
+    "https://www.youtube.com/watch?v=VIQoUghHSxU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=20",
+    "https://www.youtube.com/watch?v=RnS0YNuLfQQ&index=5&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=6&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=-e5h4IGKZRY&index=7&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=Rk-_syQluvc&index=13&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=1Osb_iGDdjk&index=10&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=r2S7j54I68c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=12",
+    "https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=16"
+    "http://p5js.org/reference/"
   ]
 };
 
@@ -128,7 +156,17 @@ var class2 = {
   // 2016, January, 26 6PM
   date: new Date(2016, 0, 26, 18),
   link: "https://github.com/ArtG2260SpringTuesday2016/Class2"
-  agenda: undefined
+  agenda: [
+    "Loops",
+    "Maps",
+  ]
+  relatedMaterials: [
+    "http://eloquentjavascript.net/05_higher_order.html",
+    "https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=21",
+    "https://www.youtube.com/watch?v=nicMAoW6u1g&index=8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=cnRD9o6odjk&index=14&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
+    "https://www.youtube.com/watch?v=1c1_TMdf8b8&index=15&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
+  ]
 };
 
 syllabus.push(class2)
@@ -140,7 +178,17 @@ var class3 = {
   date: new Date(2016, 1, 2, 18),
   link: "https://github.com/ArtG2260SpringTuesday2016/Class3"
   agenda: [
-    "constructor functions"
+    "Constructor functions",
+    "Classes in javascript (ES5, ES6)",
+    "Functions to make your life easier—returning values",
+    "Array of objects (getting to JSON)"
+  ],
+  relatedMaterials: [
+    "http://www.json.org/",
+    "https://www.youtube.com/watch?v=F3GeM_KrGjI&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=23",
+    "https://www.youtube.com/watch?v=pGkSHeEZLMU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=22",
+    "https://www.youtube.com/watch?v=zkc417YapfE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17",
+    "https://www.youtube.com/watch?v=qRnUBiTJ66Y&index=18&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
   ]
 };
 
@@ -150,21 +198,41 @@ syllabus.push(class3)
 ```javascript
 // Takes in a date and an array of topics
 // puts ClassRoomSession in syllabus
-function ClassRoomSession (date, agenda, classNumber) {
+function ClassRoomSession (date, agenda, classNumber, relatedMaterials) {
   this.date = date;
   this.agenda = agenda;
-  this.link = "https://github.com/ArtG2260SpringTuesday2016/class" + classNumber
+  this.link = "https://github.com/ArtG2260SpringTuesday2016/class" + classNumber;
+  this.relatedMaterials = relatedMaterials;
 
   syllabus.push(this);
 };
 
 // 2016, February, 9 6PM
-var class4 = new ClassRoomSession(new Date(2016, 1, 9, 18), undefined, 4);
+var class4 = new ClassRoomSession(
+  new Date(2016, 1, 9, 18),
+  [
+    "Ditch p5 editor for Atom",
+    "Functions inside of objects"
+    "Objects in arrays again"
+  ],
+  4,
+  [
+    "https://atom.io/",
+    "https://www.youtube.com/watch?v=QoFWCPVpWUE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=19",
+    "https://www.youtube.com/watch?v=EyG_2AdHlzY&index=24&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
+
+  ]);
 ```
 
 ```javascript
 // 2016, February, 16 6PM
-var class5 = new ClassRoomSession(new Date(2016, 1, 16, 18), undefined, 5);
+var class5 = new ClassRoomSession(
+  new Date(2016, 1, 16, 18),
+  ["Interactivity"],
+  5,
+  [
+    "https://www.youtube.com/watch?v=DEHsr4XicN8&index=26&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
+  ]);
 ```
 
 ```javascript
