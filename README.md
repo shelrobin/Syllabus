@@ -95,7 +95,7 @@ var syllabus = [];
 var class0 = {
   // 2016, January, 12 6PM
   date: new Date(2016, 0, 12, 18),
-  link: "https://github.com/ArtG2260SpringTuesday2016/Class0"
+  link: "https://github.com/ArtG2260SpringTuesday2016/Class0",
   agenda: [
     "Introductions",
     "Communication (slack, github)",
@@ -105,7 +105,7 @@ var class0 = {
     "Github"
   ],
   relatedMaterials: [
-    "https://github.com/ArtG2260SpringTuesday2016/Class0"
+    "https://github.com/ArtG2260SpringTuesday2016/Class0",
     "http://eloquentjavascript.net/01_values.html",
     "http://eloquentjavascript.net/02_program_structure.html",
     "https://www.youtube.com/watch?v=8j0UDiN7my4&index=1&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
@@ -122,14 +122,14 @@ syllabus.push(class0)
 var class1 = {
   // 2016, January, 19 6PM
   date: new Date(2016, 0, 19, 18),
-  link: "https://github.com/ArtG2260SpringTuesday2016/Class1"
+  link: "https://github.com/ArtG2260SpringTuesday2016/Class1",
   agenda: [
     "Variables",
     "Scope",
     "Conditional statement",
     "Functions",
     "Data types",
-  ]
+  ],
   // Yeah I should split this up, functions can wait a week…then either
   // do something or return something.
   relatedMaterials: [
@@ -143,7 +143,7 @@ var class1 = {
     "https://www.youtube.com/watch?v=Rk-_syQluvc&index=13&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
     "https://www.youtube.com/watch?v=1Osb_iGDdjk&index=10&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
     "https://www.youtube.com/watch?v=r2S7j54I68c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=12",
-    "https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=16"
+    "https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=16",
     "http://p5js.org/reference/"
   ]
 };
@@ -155,11 +155,11 @@ syllabus.push(class1)
 var class2 = {
   // 2016, January, 26 6PM
   date: new Date(2016, 0, 26, 18),
-  link: "https://github.com/ArtG2260SpringTuesday2016/Class2"
+  link: "https://github.com/ArtG2260SpringTuesday2016/Class2",
   agenda: [
     "Loops",
     "Maps",
-  ]
+  ],
   relatedMaterials: [
     "http://eloquentjavascript.net/05_higher_order.html",
     "https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=21",
@@ -176,7 +176,7 @@ syllabus.push(class2)
 var class3 = {
   // 2016, February, 2 6PM
   date: new Date(2016, 1, 2, 18),
-  link: "https://github.com/ArtG2260SpringTuesday2016/Class3"
+  link: "https://github.com/ArtG2260SpringTuesday2016/Class3",
   agenda: [
     "Constructor functions",
     "Classes in javascript (ES5, ES6)",
@@ -212,7 +212,7 @@ var class4 = new ClassRoomSession(
   new Date(2016, 1, 9, 18),
   [
     "Ditch p5 editor for Atom",
-    "Functions inside of objects"
+    "Functions inside of objects",
     "Objects in arrays again"
   ],
   4,
