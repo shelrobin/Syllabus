@@ -37,7 +37,7 @@ There are no standing office hours (as the instructor does not have an office) b
 This is a project-based, hybrid lecture/studio course. Class meetings will start each week with a presentation introducing the topic of the week and reviewing the programming exploration assigned the previous week. The balance of class time will consist of instructor-led hands-on exercises and/or independent work.
 
 # Grading
-Within 14 days after an assignment is due, grades will be posted. I will place a grading sheet in the assignment cloud folder. If you have any questions about how your grade was determined, don’t hesitate to make an appointment. The overall grade you earn in this course will be based on the following:
+If you have any questions about grades are determined, don’t hesitate to make an appointment. The overall grade you earn in this course will be based on the following:
 - 10% Active participation in presentation, discussion, and workshop sessions
 - 10% Help contribution in the class repository (issues, branches, notes).
 - 40% Programming assignments
@@ -60,7 +60,7 @@ The general criteria for grades is as follows:
 | F     | Assignment not completed on time/completed. Solutions is not functional. It was obvious effort was not made.                                                                                                                                           |
 
 # Assignments
-Assignments will be handed in two stages. First a pull request will be submitted on a private repository assigned to each student by the end of Sunday before class mentioning [@frandias](https://github.com/frandias). They will then get feedback on that pull request (Sunday/Monday/Tuesday) and then have until the end of Wednesday to make corrections and mention [@frandias](https://github.com/frandias) again to submit their assignement. A pull request alone, commits or an edited comment will not be taken as proof of when work occured.
+Assignments will be handed in two stages. First a pull request will be submitted on a private repository assigned to each student by the end of Sunday before class mentioning [@frandias](https://github.com/frandias). Feedback will be given on that pull request on Sunday, Monday, or Tuesday. Students will then have until the end of Wednesday to submit their final project where they will @mention [@frandias](https://github.com/frandias) again to submit their assignement. A pull request alone, commits or an edited comment will not be taken as proof of when work occured.
 
 If a pull request is submitted earlier than Sunday it'll get reviewed earlier (think of it like asking for help) but does not have to be complete, a complete PR is still expected on Sunday. **So it is advantageous to try to work on/finish assignments earlier as you will be able to take advantage of more help**
 
@@ -80,8 +80,6 @@ There are no required books to purchase for this class but here are some useful 
 - John Ducket
    - [HTML and CSS: Design and Build Websites. John Wiley & Sons, 2011](http://smile.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?s=books&ie=UTF8&qid=1451709553&sr=1-1&keywords=john+Ducket) [PDF](http://wtf.tw/ref/duckett.pdf)
    - [JavaScript and jQuery: Interactive Front-End Web Development.](http://smile.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?s=books&ie=UTF8&qid=1451709553&sr=1-2&keywords=john+Ducket)
-- [Lauren McArthy](http://lauren-mccarthy.com/)
-  - [Getting started with p5.js: Making Interactive Graphics in JavaScript](http://smile.amazon.com/Getting-Started-p5-js-Interactive-JavaScript/dp/1457186772?sa-no-redirect=1)
 - [Codecademy](codecademy.com)
   - [Git](https://www.codecademy.com/en/courses/learn-git/)
   - [JavaScript](https://www.codecademy.com/learn/javascript)
@@ -289,13 +287,13 @@ var final = new ClassRoomSession(undefined, undefined, 15);
 
 
 # Collaboration, original work and use of 3rd party source code
-For your code exploration assignments and project work you are expected to write original code. You must be able to explain how your program functions whenever asked. It is acceptable and encouraged to seek design, coding, and debugging assistance from other students, staff, or faculty in order to complete your work. Likewise, you are encouraged to help other students whenever possible. You are encouraged to study and learn from code examples. You may use third-party libraries to simplify coding, however, grading is based on the functionality of your original code (in compliance with their licence) along with the clarity of your comments and documentation. Whenever you incorporate third-party open source materials in your work you must properly attribute the works. Any student submitting work that can be reasonably believed to not be their own will be reported to the Office of Student Conduct and Complaint Resolution according to the Northeastern University Academic Integrity Policy.
+For your code exploration assignments and project work you are expected to write original code. You must be able to explain how your program functions. It is acceptable and encouraged to seek design, coding, and debugging assistance from other students, staff, or faculty in order to complete your work. Likewise, you are encouraged to help other students whenever possible. You are encouraged to study and learn from code examples. You may use third-party libraries to simplify coding. Grading is based on the functionality of your original code along with the clarity of comments and documentation. When incorporating third-party open source materials in your work you must properly attribute the works. Any student submitting work that can be reasonably believed to not be their own will be reported to the Office of Student Conduct and Complaint Resolution according to the Northeastern University Academic Integrity Policy.
 
 # Mobile phones, texting, instant messaging, email, social media, web browsing
 We're all adults here. The class is for your benefit. Use good judgement. We will have breaks during class where you'll have time to attend whatever you need.
 
 # Attendance
-You are expected to attend every class on time. I will intentionally wait 5 minutes after the class start time to begin the session to give people a couple extra minutes of buffer.
+You are expected to attend every class on time. There will be a 5 minute buffer to the beginning of class to allow everyone to get settled.
 
 Three unexcused absences will result in a failing grade, as will chronic lateness. If you are going to be absent or late, please, at the very least, email me. Per University policy, excused absences must be documented. Except for extreme emergencies (you are in an ambulance), do not expect to receive an excused absence if you email me during or after class.
 
@@ -304,7 +302,7 @@ You must bring your laptop to all class meetings fully-charged and ready to roll
 
 More details related to the laptop requirement at http://www.neu.edu/camd/artdesign/about/laptop-software-fonts/.
 
-The importance of backing up files cannot be stressed enough. I suggest using dropbox.
+The importance of backing up files cannot be stressed enough. Push code often.
 
 If you don’t have a laptop and purchasing one now presents a hardship, or if your laptop is broken and out for repairs and you need one to use in class, contact Chris Franson, College of Arts, Media and Design Technical Director, with questions via email to c.franson@neu.edu or call 617-373-7168.
 
